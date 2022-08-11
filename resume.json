@@ -11,7 +11,7 @@
     },
     "avatar":
     {
-        "src": "http://192.168.255.10:3001/",
+        "src": "https://192.168.255.10:3001/",
         "hidden": false
     },
     "profile":
