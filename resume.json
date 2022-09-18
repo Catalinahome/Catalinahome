@@ -11,7 +11,7 @@
     },
     "avatar":
     {
-        "src": "https://avatars.githubusercontent.com/u/15646325?v=4",
+        "src": "http://192.168.255.10:3001/",
         "hidden": false
     },
     "profile":
@@ -30,10 +30,10 @@
         {
             "edu_time":
             [
-                "2013.09.01",
-                "2019.06.30"
+                "2013.09",
+                "2019.06"
             ],
-            "school": "南京农业大学",
+            "school": "南京农业大学(211)",
             "major": "电子商务",
             "academic_degree": "本科",
             "dataIndex": 0
@@ -46,7 +46,7 @@
             "award_time": "2015"
         },
         {
-            "award_info": "证券从业资格证”",
+            "award_info": "证券从业资格证",
             "award_time": "2020.06"
         },
         {
@@ -97,25 +97,25 @@
         {
             "skill_name": "python",
             "skill_desc": "",
-            "skill_level": 89,
+            "skill_level": 90,
             "dataIndex": 0
         },
         {
             "skill_name": "mysql",
-            "skill_level": 90,
+            "skill_level": 88,
             "dataIndex": 1,
             "skill_desc": ""
         },
         {
             "skill_name": "trpc_python",
             "skill_desc": "熟悉腾讯自研trpc开发框架的python版本",
-            "skill_level": 90,
+            "skill_level": 80,
             "dataIndex": 2
         },
         {
             "skill_name": "django/flask",
             "skill_desc": "丰富pythonweb项目经验",
-            "skill_level": 80,
+            "skill_level": 90,
             "dataIndex": 3
         }
     ],
@@ -126,28 +126,28 @@
             "project_role": "核心开发者",
             "project_time": "2022.03 - 2022.09",
             "project_desc": "对医保，电商，云医的所有药品规格包装进行结构化处理，识别其中的主药成分，药品容器单位，主药量与药品总量，对药品进行浓度等计算，以解决不同厂商之间同种药品包装规格差异化写法的识别",
-            "project_content": "1. 项目从0到1的框架设计和开发 2. 产品体验精雕细琢的打磨 3. 建立稳定性保障机制。目前仍在迭代中，帮助提升高管业务决策效率"
+            "project_content": "1. 项目从0到1的框架设计和开发 2. 药品标准库的建设 3. 建立稳定性保障机制。目前仍在迭代中，帮助提升电商药品运营同学的上品效率"
         },
         {
             "project_name": "Django购物系统",
             "project_role": "开发",
             "project_time": "2022.01 - 2022.03",
             "project_desc": "前端使用Vue.js+elementui,后台使用Django框架，数据库使用mysql。用户可以浏览商品，按商品名字搜索商品，用户下单成功后系统可异步通知下游系统（仓库系统，物流系统），后台管理页面可录入商品，包括商品名称，商品描述，价格，库存等。",
-            "project_content": "BI 平台工具核心部分是报表制作，也就是通过数据连接、可视化配置形成图表物料之后，通过拖拽方式进行页面编排，最终形成报表页面进行发布的过程。\n1. 主导开放能力建设，拉通产品、设计建设和扩展可视化图形，提升丰富度\n2. 产品体验优化，尤其是对 ECharts 的体验顽疾进行攻克\n3. 主导可视化能力建设：业务标准化图表库建设(通用组件设计和开发经验丰富)、促进数据分析能力增强等可视化一体化建设"
+            "project_content": "1. 用户注册登录模块\n2. 用户信息模块\n3. 商品数据库表设计"
         },
         {
             "project_name": "Python实现高德地图找房",
             "project_role": "开发",
             "project_time": "2021.10 - 2021.11",
             "project_desc": "利用高德 API 和 Python 解决租房问题，包括requests、BeautifulSoup、pandas 等库的简单使用，高德地图API 的使用",
-            "project_content": "AntV 可视化建设，赋能整个蚂蚁和阿里集团统计可视化分析相关业务。负责 AntV 系列: AntV 官网、G 渲染引擎、 G2、G2Plot、ThemeSet 主题构建器等开源项目的研发工作。"
+            "project_content": "使用Python爬虫爬取租房网站的房源信息，利用高德的API在地图上标出房源地点，划出距离工作地点1小时内可到达的范围。"
         }
     ],
     "workList":
     [],
     "aboutme":
     {
-        "aboutme_desc": "🌱 Focus on medical natural language understanding 😈 能力项：沟通协调能力、执行力\n    自驱型后端工程师，具有丰富医药产品开发经验，参与腾讯医疗健康事业部医疗自然语言理解的算法开发，对医保，电商以及云医的药品规格包装归一处理有较为丰富的经验。\n    参与腾讯医疗大数据项目组的相关系统和深疾控病例数据库的日常运维，对深圳公立医院的住院入院，门诊留观，门诊相关数据的统计。\n    "
+        "aboutme_desc": "🌱 Focus on medical natural language understanding\n  😈 能力项：沟通协调能力、执行力\n    自驱型后端工程师，具有丰富医药产品开发经验，参与腾讯医疗健康事业部医疗自然语言理解的算法开发，对医保，电商以及云医的药品规格包装归一处理有较为丰富的经验。\n    参与腾讯医疗大数据项目组的相关系统和深疾控病例数据库的日常运维，对深圳公立医院的住院入院，门诊留观，门诊相关数据进行统计。\n    "
     },
     "theme":
     {
