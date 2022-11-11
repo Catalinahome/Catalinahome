@@ -1,5 +1,6 @@
 from flask import Flask
 from flask import send_file
+from flask import render_template
 
 # 第三方模块
 
@@ -10,6 +11,16 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return send_file('./头像1.jpg', mimetype='image/gif')
+
+
+@app.route('/wangbei')
+def love():
+    return render_template("index.html")
+
+
+@app.route('/dulele')
+def love1():
+    return render_template("index1.html")
 
 
 if __name__ == "__main__":
