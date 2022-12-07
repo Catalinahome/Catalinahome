@@ -22,7 +22,7 @@
         "github": "",
         "zhihu": "",
         "workExpYear": "3年",
-        "workPlace": "深圳",
+        "workPlace": "",
         "positionTitle": "python工程师"
     },
     "educationList":
@@ -41,14 +41,6 @@
     ],
     "awardList":
     [
-        {
-            "award_info": "英语 CET6",
-            "award_time": "2015"
-        },
-        {
-            "award_info": "证券从业资格证",
-            "award_time": "2020.06"
-        },
         {
             "award_info": "腾讯云开发通用认证",
             "award_time": "2022.08"
@@ -147,7 +139,7 @@
     [],
     "aboutme":
     {
-        "aboutme_desc": "🌱 Focus on medical natural language understanding\n  😈 能力项：沟通协调能力、执行力\n    自驱型后端工程师，具有丰富医药产品开发经验，参与腾讯医疗健康事业部医疗自然语言理解的算法开发，对医保，电商以及云医的药品规格包装归一处理有较为丰富的经验。\n    参与腾讯医疗大数据项目组的相关系统和深疾控病例数据库的日常运维，对深圳公立医院的住院入院，门诊留观，门诊相关数据进行统计。\n    "
+        "aboutme_desc": "🌱 Focus on medical natural language understanding\n  😈 能力项：沟通协调能力、执行力\n    自驱型后端工程师，具有丰富医药产品开发经验，参与腾讯医疗健康事业部医疗自然语言理解的算法开发，对医保，电商以及云医的药品规格包装归一处理有较为丰富的经验。    参与腾讯医疗大数据项目组的相关系统和深疾控病例数据库的日常运维，对深圳公立医院的住院入院，门诊留观，门诊相关数据进行统计。"
     },
     "theme":
     {
