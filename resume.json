@@ -21,7 +21,7 @@
         "mobile": "13337831404",
         "github": "",
         "zhihu": "",
-        "workExpYear": "3年",
+        "workExpYear": "4年",
         "workPlace": "",
         "positionTitle": "python工程师"
     },
@@ -34,7 +34,6 @@
                 "2019.06"
             ],
             "school": "南京农业大学(211)",
-            "major": "电子商务",
             "academic_degree": "本科",
             "dataIndex": 0
         }
@@ -116,21 +115,21 @@
         {
             "project_name": "药品规格包装归一化算法开发",
             "project_role": "核心开发者",
-            "project_time": "2022.03 - 2022.09",
+            "project_time": "2022.03 - 2023.03",
             "project_desc": "对医保，电商，云医的所有药品规格包装进行结构化处理，识别其中的主药成分，药品容器单位，主药量与药品总量，对药品进行浓度等计算，以解决不同厂商之间同种药品包装规格差异化写法的识别",
             "project_content": "\n1. 项目从0到1的框架设计和开发\n2. 药品标准库的建设\n3. 建立稳定性保障机制。目前仍在迭代中，帮助提升电商药品运营同学的上品效率"
         },
         {
             "project_name": "Django购物系统",
             "project_role": "开发",
-            "project_time": "2022.01 - 2022.03",
+            "project_time": "2021.04 - 2021.11",
             "project_desc": "前端使用Vue.js+elementui,后台使用Django框架，数据库使用mysql。用户可以浏览商品，按商品名字搜索商品，用户下单成功后系统可异步通知下游系统（仓库系统，物流系统），后台管理页面可录入商品，包括商品名称，商品描述，价格，库存等。",
             "project_content": "\n1. 用户注册登录模块\n2. 用户信息模块\n3. 商品数据库表设计"
         },
         {
             "project_name": "Python实现高德地图找房",
             "project_role": "开发",
-            "project_time": "2021.10 - 2021.11",
+            "project_time": "2019.10 - 2019.11",
             "project_desc": "利用高德 API 和 Python 解决租房问题，包括requests、BeautifulSoup、pandas 等库的简单使用，高德地图API 的使用",
             "project_content": "使用Python爬虫爬取租房网站的房源信息，利用高德的API在地图上标出房源地点，划出距离工作地点1小时内可到达的范围。"
         }
