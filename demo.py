@@ -25,5 +25,5 @@ def love1():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=3001, ssl_context=(
-        "C:/Users/v_psmpeng/cert.pem", "C:/Users/v_psmpeng/key.pem"))
+        "cert.pem", "key.pem"))
 

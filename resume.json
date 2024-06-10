@@ -11,7 +11,7 @@
     },
     "avatar":
     {
-        "src": "https://192.168.255.10:3001/",
+        "src": "https://127.0.0.1:3001/",
         "hidden": false
     },
     "profile":
@@ -21,9 +21,9 @@
         "mobile": "13337831404",
         "github": "",
         "zhihu": "",
-        "workExpYear": "4年",
+        "workExpYear": "5年",
         "workPlace": "",
-        "positionTitle": "python工程师"
+        "positionTitle": "软件开发工程师"
     },
     "educationList":
     [
@@ -45,8 +45,8 @@
             "award_time": "2022.08"
         },
         {
-            "award_info": "TDSQL(MYSQL版)日常运维技能认证",
-            "award_time": "2022.08"
+            "award_info": "华为软件开发能力认证证书（专业级，Python & Java）",
+            "award_time": "2023.12"
         }
         
     ],
@@ -58,19 +58,9 @@
             "work_time":
             [
                 "2019.09",
-                "2021.07"
+                "2021.12"
             ],
             "work_desc": "1. 宝能汽车DMS销售管理系统开发\r\n2. 宝能汽车经纪人奖励审核系统开发"
-        },
-        {
-            "company_name": "深圳软通动力信息技术有限公司",
-            "department_name": "BPIT技术部",
-            "work_time":
-            [
-                "2021.07",
-                "2022.01"
-            ],
-            "work_desc": "1.华为isales销售一站式平台系统开发\n2. 处理isales系统的问题工单"
         },
         {
             "company_name": "中电金信软件(深圳)有限公司",
@@ -78,34 +68,44 @@
             "work_time":
             [
                 "2022.01",
-                null
+                "2023.06"
             ],
             "work_desc": "腾讯CSIG医疗健康事业部天衍实验室医疗自然语言理解组外包，负责药品规格、包装等标准化算法开发，医疗大数据组深疾控病历数据库表的维护"
+        },
+        {
+            "company_name": "上海科之锐有限公司深圳分公司",
+            "department_name": "质量流程与IT部",
+            "work_time":
+            [
+                "2023.06",
+                null
+            ],
+            "work_desc": "1.研发办公助手后台服务开发\n2. 研发办公助手管理控制台前端页面开发"
         }
     ],
     "skillList":
     [
         {
-            "skill_name": "python",
+            "skill_name": "数据库（redis,mysql,pgsql,Elastic Search）",
             "skill_desc": "",
             "skill_level": 90,
             "dataIndex": 0
         },
         {
-            "skill_name": "mysql",
+            "skill_name": "消息中间件（RocketMq,Kafka)",
             "skill_level": 88,
             "dataIndex": 1,
             "skill_desc": ""
         },
         {
-            "skill_name": "trpc_python",
-            "skill_desc": "熟悉腾讯自研trpc开发框架的python版本",
+            "skill_name": "Spring Boot",
+            "skill_desc": "熟练掌握Spring Boot, MyBatis等主流web开发框架",
             "skill_level": 80,
             "dataIndex": 2
         },
         {
-            "skill_name": "django/flask",
-            "skill_desc": "丰富pythonweb项目经验",
+            "skill_name": "Django/Flask",
+            "skill_desc": "丰富Python Web项目经验",
             "skill_level": 90,
             "dataIndex": 3
         }
@@ -117,29 +117,21 @@
             "project_role": "核心开发者",
             "project_time": "2022.03 - 2023.03",
             "project_desc": "对医保，电商，云医的所有药品规格包装进行结构化处理，识别其中的主药成分，药品容器单位，主药量与药品总量，对药品进行浓度等计算，以解决不同厂商之间同种药品包装规格差异化写法的识别",
-            "project_content": "\n1. 项目从0到1的框架设计和开发\n2. 药品标准库的建设\n3. 建立稳定性保障机制。目前仍在迭代中，帮助提升电商药品运营同学的上品效率"
+            "project_content": "\n1. 项目从0到1的框架设计和开发\n2. 药品标准库的建设\n3. 建立稳定性保障机制,帮助提升电商药品运营同学的上品效率"
         },
         {
-            "project_name": "Django购物系统",
-            "project_role": "开发",
-            "project_time": "2021.04 - 2021.11",
-            "project_desc": "前端使用Vue.js+elementui,后台使用Django框架，数据库使用mysql。用户可以浏览商品，按商品名字搜索商品，用户下单成功后系统可异步通知下游系统（仓库系统，物流系统），后台管理页面可录入商品，包括商品名称，商品描述，价格，库存等。",
-            "project_content": "\n1. 用户注册登录模块\n2. 用户信息模块\n3. 商品数据库表设计"
-        },
-        {
-            "project_name": "Python实现高德地图找房",
-            "project_role": "开发",
-            "project_time": "2019.10 - 2019.11",
-            "project_desc": "利用高德 API 和 Python 解决租房问题，包括requests、BeautifulSoup、pandas 等库的简单使用，高德地图API 的使用",
-            "project_content": "使用Python爬虫爬取租房网站的房源信息，利用高德的API在地图上标出房源地点，划出距离工作地点1小时内可到达的范围。"
+            "project_name": "研发办公助手管理控制台前后端开发",
+            "project_role": "核心开发者",
+            "project_time": "2024.01 - 至今",
+            "project_desc": "前端使用Vue.js + Element UI,后台使用Spring Boot框架，数据库使用pgsql + Elastic Search，消息中间件使用RocketMq + Kafka。后台服务消费客户端上报的各种设备参数，定时任务对设备各上报指标进行汇总统计，控制台可实时查询设备的详细信息",
+            "project_content": "\n1. 前端国际化，支持中英文双语切换\n2. 对客户端生产的消息进行消费落库\n3. 接口慢sql优化"
         }
     ],
     "workList":
     [],
     "aboutme":
     {
-        "aboutme_desc": "🌱 Focus on medical natural language understanding\n  😈 能力项：沟通协调能力、执行力\n    自驱型后端工程师，具有丰富医药产品开发经验，参与腾讯医疗健康事业部医疗自然语言理解的算法开发，对医保，电商以及云医的药品规格包装归一处理有较为丰富的经验。    参与腾讯医疗大数据项目组的相关系统和深疾控病例数据库的日常运维，对深圳公立医院的住院入院，门诊留观，门诊相关数据进行统计。"
-    },
+        "aboutme_desc": "🌱 专业，扎实的技术背景\n  😈 能力项：沟通协调能力、执行力\n    熟悉常用的数据结构算法，熟悉JDK中各种集合，队列，锁，多线程，高并发及NIO相关的底层结构及原理。熟悉各种GC,各种垃圾回收算法，有丰富的JVM调优经验。对于构建高吞吐，低延迟，分布式架构，有丰富经验。"  },
     "theme":
     {
         "color": "#2f5785",
