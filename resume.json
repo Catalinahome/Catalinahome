@@ -86,13 +86,13 @@
     "skillList":
     [
         {
-            "skill_name": "数据库（redis,mysql,pgsql,Elastic Search）",
+            "skill_name": "数据库(Redis,Mysql)",
             "skill_desc": "",
             "skill_level": 90,
             "dataIndex": 0
         },
         {
-            "skill_name": "消息中间件（RocketMq,Kafka)",
+            "skill_name": "消息中间件(RocketMq)",
             "skill_level": 88,
             "dataIndex": 1,
             "skill_desc": ""
@@ -120,7 +120,7 @@
             "project_content": "\n1. 项目从0到1的框架设计和开发\n2. 药品标准库的建设\n3. 建立稳定性保障机制,帮助提升电商药品运营同学的上品效率"
         },
         {
-            "project_name": "研发办公助手管理控制台前后端开发",
+            "project_name": "研发办公助手控制台开发",
             "project_role": "核心开发者",
             "project_time": "2024.01 - 至今",
             "project_desc": "前端使用Vue.js + Element UI,后台使用Spring Boot框架，数据库使用pgsql + Elastic Search，消息中间件使用RocketMq + Kafka。后台服务消费客户端上报的各种设备参数，定时任务对设备各上报指标进行汇总统计，控制台可实时查询设备的详细信息",
