@@ -55,6 +55,10 @@
         {
             "award_info": "华为软件开发能力认证证书（Python专业级）",
             "award_time": "2023.12"
+        },
+        {
+            "award_info": "英语六级证书(CET-6)",
+            "award_time": "2017.12"
         }
         
     ],
@@ -128,29 +132,30 @@
             "skill_desc": "熟悉前端开发技术,如Html, CSS, JS,React,Vue以及UI框架AntD,ElementUI,Echarts,并都有过项目实战经验",
             "skill_level": 90,
             "dataIndex": 5
-        },
-        {
-            "skill_name": "英语",
-            "skill_desc": "CET-6",
-            "skill_level": 90,
-            "dataIndex": 6
         }
     ],
     "projectList":
     [
         {
-            "project_name": "药品规格归一化开发",
+            "project_name": "药品规格包装标准化开发",
             "project_role": "核心开发者",
             "project_time": "2022.03 - 2023.03",
-            "project_desc": "对医保，电商，云医的所有药品规格包装进行结构化处理，识别其中的主药成分，药品容器单位，主药量与药品总量，对药品进行浓度等计算，以解决不同厂商之间同种药品包装规格差异化写法的识别",
+            "project_desc": "对医保，电商，云医的所有药品规格包装进行结构化处理，识别其中的主药成分，药品容器单位，主药量与药品总量，对药品进行浓度等计算，以解决不同厂商之间同种药品包装规格差异化写法的识别。并将接口商业化进行售卖，18.8w/年",
             "project_content": "\n1. 项目从0到1的框架设计和开发\n2. 药品标准库的建设\n3. 建立稳定性保障机制,帮助提升电商药品运营同学的上品效率"
         },
         {
-            "project_name": "研发办公助手控制台开发",
+            "project_name": "研发办公系统",
             "project_role": "核心开发者",
-            "project_time": "2024.01 - 至今",
-            "project_desc": "前端使用Vue.js + Element UI,后台使用Spring Boot框架，数据库使用pgsql + Elastic Search，消息中间件使用RocketMq + Kafka。后台服务消费客户端上报的各种设备参数，定时任务对设备各上报指标进行汇总统计，控制台可实时查询设备的详细信息",
+            "project_time": "2024.01 - 2024.06",
+            "project_desc": "前端使用Vue.js + Element UI,后台使用Spring Boot框架，数据库使用pgsql + Redis，消息中间件使用RocketMq + Kafka。后台服务消费研发办公助手客户端上报的性能指标、基础信息、异常事件的rocketmq消息，对不同类型的消息通过redis缓存，按照不同的频率进行落表。分布式定时任务对客户端各上报指标进行汇总统计，控制台可实时查询设备的详细信息（工号，ip地址，mac地址，设备sn号，无线ap,cpu型号，cpu温度，网速，磁盘总空间，磁盘已用空间，精准定位等信息）",
             "project_content": "\n1. 对客户端生产的消息进行消费落库。对于每日上报数据量较大的表进行按月分区，存储过程+定时任务每月自动创建下月分区表，并对半年前的分区表进行自动清理。\n2. 对响应时间较长的接口进行慢sql优化\n3.对线上问题快速定位并及时处理（包括docker容器CPU、内存利用率过高，消息队列大量消息堆积，数据库CPU利用率过高等问题）"
+        },
+        {
+            "project_name": "智慧库房",
+            "project_role": "核心开发者",
+            "project_time": "2024.06 - 至今",
+            "project_desc": "前端使用React + AntD,后台使用Spring Boot框架，数据库使用mysql + Elastic Search，消息中间件使用RocketMq。通过RFID技术，实现物料的自动出入库，自动盘点，异常告警等功能，提高物料周转效率，极大减少了库房管理员的工作量。",
+            "project_content": "\n1. Spring Security对用户进行鉴权，库房管理员只能操作其名下有权限的库房。\n2. quartz实现分布式定时任务调度，定时对库房物料进行自动盘点，定时对物料台账进行稽核，将异常物料落表。\n3.异常物料进出通道门，产生声光告警，同时rocketmq上报消息，通过短信或应用号通知库房管理员。\n4.智慧库房可视化大屏，库房管理员可实时观看库房监控，滚动播放物料出入库明细。"
         }
     ],
     "workList":
