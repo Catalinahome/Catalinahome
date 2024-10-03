@@ -22,7 +22,7 @@
         "github": "",
         "zhihu": "",
         "workExpYear": "5年",
-        "workPlace": "",
+        "workPlace": "深圳",
         "positionTitle": "软件开发工程师"
     },
     "educationList":
@@ -45,7 +45,15 @@
             "award_time": "2022.08"
         },
         {
-            "award_info": "华为软件开发能力认证证书（专业级，Python & Java）",
+            "award_info": "TDSQL运维证书（MYSQL版）",
+            "award_time": "2022.08"
+        },
+        {
+            "award_info": "华为软件开发能力认证证书（Java专业级）",
+            "award_time": "2023.11"
+        },
+        {
+            "award_info": "华为软件开发能力认证证书（Python专业级）",
             "award_time": "2023.12"
         }
         
@@ -70,7 +78,7 @@
                 "2022.01",
                 "2023.06"
             ],
-            "work_desc": "腾讯CSIG医疗健康事业部天衍实验室医疗自然语言理解组外包，负责药品规格、包装等标准化算法开发，医疗大数据组深疾控病历数据库表的维护"
+            "work_desc": "腾讯CSIG医疗健康事业部天衍实验室医疗自然语言理解组，负责对药监局所有药品进行规格包装结构化算法开发，以及医疗大数据组深圳疾控中心病历数据库表的维护"
         },
         {
             "company_name": "上海科之锐有限公司",
@@ -80,34 +88,52 @@
                 "2023.06",
                 null
             ],
-            "work_desc": "研发办公助手管理控制台全栈开发"
+            "work_desc": "华为OD精英项目，主要负责智慧库房、企业河图、研发办公系统全栈开发"
         }
     ],
     "skillList":
     [
         {
-            "skill_name": "数据库(Redis,Mysql)",
-            "skill_desc": "",
+            "skill_name": "数据库",
+            "skill_desc": "熟悉关系型数据库（MYSQL)与非关系型数据库（Redis）。深入理解 Mysql，了解索引、事务、锁机制等核心原理，具有SQL调优、分库分表、索引优化、数据库灾备等丰富的实战经验。深入理解Redis 线程模型，熟练掌握核心数据结构和使用场景。深入了其解执行流程、持久化和过期策略，熟练解决缓存穿透、缓存及穿、缓存雪崩等问题。",
             "skill_level": 90,
             "dataIndex": 0
         },
         {
-            "skill_name": "消息中间件(RocketMq)",
-            "skill_level": 88,
+            "skill_name": "消息中间件",
+            "skill_level": 90,
             "dataIndex": 1,
-            "skill_desc": ""
+            "skill_desc": "熟悉Kafka、RocketMQ 等常见消息中间件的使用，对于消息可靠性、消息顺序性等原理有所了解，对于消息堆积、消息丢失等问题有解决经验。"
         },
         {
-            "skill_name": "Spring Boot",
-            "skill_desc": "熟练掌握Spring Boot, MyBatis等主流web开发框架",
-            "skill_level": 80,
+            "skill_name": "JAVA WEB",
+            "skill_desc": "熟练掌握Spring、SpringBoot、MyBatis、MyBatis-Plus等主流开发框架设计原理，阅读过部分核心代码。",
+            "skill_level": 90,
             "dataIndex": 2
         },
         {
             "skill_name": "Django/Flask",
-            "skill_desc": "丰富Python Web项目经验",
+            "skill_desc": "熟悉Python开发，并有Python Web项目实战经验",
             "skill_level": 90,
             "dataIndex": 3
+        },
+        {
+            "skill_name": "Linux",
+            "skill_desc": "熟悉Linux操作系统，掌握常用Linux命令和docker命令，熟悉docker打包部署",
+            "skill_level": 90,
+            "dataIndex": 4
+        },
+        {
+            "skill_name": "前端",
+            "skill_desc": "熟悉前端开发技术,如Html, CSS, JS,React,Vue以及UI框架AntD,ElementUI,Echarts,并都有过项目实战经验",
+            "skill_level": 90,
+            "dataIndex": 5
+        },
+        {
+            "skill_name": "英语",
+            "skill_desc": "CET-6",
+            "skill_level": 90,
+            "dataIndex": 6
         }
     ],
     "projectList":
@@ -124,14 +150,14 @@
             "project_role": "核心开发者",
             "project_time": "2024.01 - 至今",
             "project_desc": "前端使用Vue.js + Element UI,后台使用Spring Boot框架，数据库使用pgsql + Elastic Search，消息中间件使用RocketMq + Kafka。后台服务消费客户端上报的各种设备参数，定时任务对设备各上报指标进行汇总统计，控制台可实时查询设备的详细信息",
-            "project_content": "\n1. 对客户端生产的消息进行消费落库。对于每日上报数据量较大的表进行按月分区，存储过程+定时任务每月自动创建下月分区表，并对半年前的分区表进行自动清理。\n2. 对响应时间较长的接口进行慢sql优化（从原始表查询改为每天定时任务从原始表分组聚合后插入统计表，接口直接从统计表获取数据）\n3.对线上问题快速定位并及时处理（包括docker容器CPU、内存利用率过高，消息队列大量消息堆积，数据库CPU利用率过高等问题）"
+            "project_content": "\n1. 对客户端生产的消息进行消费落库。对于每日上报数据量较大的表进行按月分区，存储过程+定时任务每月自动创建下月分区表，并对半年前的分区表进行自动清理。\n2. 对响应时间较长的接口进行慢sql优化\n3.对线上问题快速定位并及时处理（包括docker容器CPU、内存利用率过高，消息队列大量消息堆积，数据库CPU利用率过高等问题）"
         }
     ],
     "workList":
     [],
     "aboutme":
     {
-        "aboutme_desc": "🌱 专业，扎实的技术背景\n  😈 能力项：沟通协调能力、执行力\n    熟悉常用的数据结构算法，熟悉JDK中各种集合，队列，锁，多线程，高并发及NIO相关的底层结构及原理。熟悉各种GC,各种垃圾回收算法，有丰富的JVM调优经验。对于构建高吞吐，低延迟，分布式架构，有丰富经验。"  },
+        "aboutme_desc": "🌱 专业，扎实的技术背景\n  😈 能力项：沟通协调能力、执行力\n    熟悉常用的数据结构算法，熟悉JDK中各种集合，队列，锁，多线程，高并发及NIO相关的底层结构及原理。熟悉各种GC,垃圾回收算法，有丰富的JVM调优经验。对于构建高吞吐，低延迟，分布式架构，有丰富经验。"  },
     "theme":
     {
         "color": "#2f5785",
