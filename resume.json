@@ -11,7 +11,7 @@
     },
     "avatar":
     {
-        "src": "https://192.168.2.102:3001/",
+        "src": "https://127.0.0.1:3001/",
         "hidden": false
     },
     "profile":
@@ -98,7 +98,7 @@
     [
         {
             "skill_name": "数据库",
-            "skill_desc": "熟悉关系型数据库（MYSQL)与非关系型数据库（Redis）。深入理解 Mysql，了解索引、事务、锁机制等核心原理，具有SQL调优、分库分表、索引优化、数据库灾备等丰富的实战经验。深入理解Redis 线程模型，熟练掌握核心数据结构和使用场景。深入了其解执行流程、持久化和过期策略，熟练解决缓存穿透、缓存及穿、缓存雪崩等问题。",
+            "skill_desc": "熟悉关系型数据库（MYSQL, PGSQL,ORACLE)与非关系型数据库（Redis）。深入理解 Mysql，了解索引、事务、锁机制等核心原理，具有SQL调优、分库分表、索引优化、数据库灾备等丰富的实战经验。深入理解Redis 线程模型，熟练掌握核心数据结构和使用场景。深入了其解执行流程、持久化和过期策略，熟练解决缓存穿透、缓存及穿、缓存雪崩等问题。",
             "skill_level": 90,
             "dataIndex": 0
         },
@@ -106,7 +106,7 @@
             "skill_name": "消息中间件",
             "skill_level": 90,
             "dataIndex": 1,
-            "skill_desc": "熟悉Kafka、RocketMQ 等常见消息中间件的使用，对于消息可靠性、消息顺序性等原理有所了解，对于消息堆积、消息丢失等问题有解决经验。"
+            "skill_desc": "熟悉Kafka、RocketMQ、RabbitMQ 等常见消息中间件的使用，对于消息可靠性、消息顺序性等原理有所了解，对于消息堆积、消息丢失等问题有解决经验。"
         },
         {
             "skill_name": "JAVA WEB",
@@ -115,14 +115,14 @@
             "dataIndex": 2
         },
         {
-            "skill_name": "Django/Flask",
-            "skill_desc": "熟悉Python开发，并有Python Web项目实战经验",
+            "skill_name": "Python WEB",
+            "skill_desc": "高级Python开发工程师，熟练使用多线程，多进程编程,对高并发处理有一定理解。有flask,django,fastApi等python web项目实战经验",
             "skill_level": 90,
             "dataIndex": 3
         },
         {
             "skill_name": "Linux",
-            "skill_desc": "熟悉Linux操作系统，掌握常用Linux命令和docker命令，熟悉docker打包部署",
+            "skill_desc": "熟悉Linux操作系统，掌握常用Linux命令和docker命令，熟悉docker打包部署流程",
             "skill_level": 90,
             "dataIndex": 4
         },
@@ -168,14 +168,14 @@
             "project_role": "核心开发者",
             "project_time": "2025.01 - 至今",
             "project_desc": "基于深度学习，强化学习，深度强化学习算法的股票交易系统",
-            "project_content": "\n1. 通过python的websocket连接恒生行情。\n2. 每只股票3秒收到1次行情推送，触发celery任务，通过深度学习，强化学习，深度强化学习算法计算出股票的下单数量和下单价格，\n3.通过fix协议发送股票下单信息到恒生t2tofix服务器，并接收股票成交回报信息"
+            "project_content": "\n1. 通过python的websocket连接恒生行情。\n2. 每只股票3秒收到1次行情推送，触发celery任务，通过深度学习，强化学习，深度强化学习算法计算出股票的下单数量和下单价格。\n3.通过fix协议发送股票下单信息到恒生t2tofix服务器，并接收股票成交回报信息。"
         }
     ],
     "workList":
     [],
     "aboutme":
     {
-        "aboutme_desc": "🌱 专业，扎实的技术背景\n  😈 能力项：沟通协调能力、执行力\n    熟悉常用的数据结构算法，熟悉JDK中各种集合，队列，锁，多线程，高并发及NIO相关的底层结构及原理。熟悉各种GC,垃圾回收算法，有丰富的JVM调优经验。对于构建高吞吐，低延迟，分布式架构，有丰富经验。"  },
+        "aboutme_desc": "🌱 专业，扎实的技术背景\n  😈 能力项：沟通协调能力、执行力\n    熟悉常用的数据结构算法，熟悉python的装饰器，闭包，迭代器，生成器，上下文管理器，协程，异步编程，熟悉JDK中各种集合，队列，锁，多线程，高并发及NIO相关的底层结构及原理。熟悉各种GC,垃圾回收算法，有丰富的JVM调优经验。对于构建高吞吐，低延迟，分布式架构，有丰富经验。"  },
     "theme":
     {
         "color": "#2f5785",
