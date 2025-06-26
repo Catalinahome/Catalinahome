@@ -21,8 +21,7 @@
         "mobile": "13337831404",
         "github": "",
         "zhihu": "",
-        "workExpYear": "5年",
-        "workPlace": "深圳",
+        "workExpYear": "6年",
         "positionTitle": "软件开发工程师"
     },
     "educationList":
@@ -156,6 +155,20 @@
             "project_time": "2024.06 - 至今",
             "project_desc": "前端使用React + AntD,后台使用Spring Boot框架，数据库使用mysql + Elastic Search，消息中间件使用RocketMq。通过RFID技术，实现物料的自动出入库，自动盘点，异常告警等功能，提高物料周转效率，极大减少了库房管理员的工作量。",
             "project_content": "\n1. Spring Security对用户进行鉴权，库房管理员只能操作其名下有权限的库房。\n2. quartz实现分布式定时任务调度，定时对库房物料进行自动盘点，定时对物料台账进行稽核，将异常物料落表。\n3.异常物料进出通道门，产生声光告警，同时rocketmq上报消息，通过短信或应用号通知库房管理员。\n4.物料盘点记录和物料出入库记录存入Elastic Search库中，方便追踪物料轨迹。\n5.智慧库房可视化大屏，滚动播放物料出入库明细，实时展示库房各设备在离线状态。库房管理员可实时观看库房监控，图表查看盘点任务和异常告警当天及分月汇总情况。"
+        },
+        {
+            "project_name": "EFundGPT数字助理",
+            "project_role": "开发者",
+            "project_time": "2025.03 - 至今",
+            "project_desc": "企业级智能体严选应用中心和超级个人助理，集成企业内部系统/文档数据，场景化用户习惯学习，具有快捷办公，文档翻译，AI生图，知识库，文档解析等功能",
+            "project_content": "\n1. 基于langgraph的整体对话算法服务研发。\n2. 流式输出采用langgraph的stream api中messages和custom形式\n3.FAQ模块存储在milvus中，用向量进行召回+reranker\n4.短期记忆存储在redis中，key为message,存储summary+state"
+        },
+        {
+            "project_name": "算法交易系统",
+            "project_role": "核心开发者",
+            "project_time": "2025.01 - 至今",
+            "project_desc": "基于深度学习，强化学习，深度强化学习算法的股票交易系统",
+            "project_content": "\n1. 通过python的websocket连接恒生行情。\n2. 每只股票3秒收到1次行情推送，触发celery任务，通过深度学习，强化学习，深度强化学习算法计算出股票的下单数量和下单价格，\n3.通过fix协议发送股票下单信息到恒生t2tofix服务器，并接收股票成交回报信息"
         }
     ],
     "workList":
