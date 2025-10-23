@@ -89,9 +89,19 @@
             "work_time":
             [
                 "2023.06",
-                null
+                "2024.12"
             ],
             "work_desc": "华为OD精英项目，主要负责智慧库房、企业河图、研发办公系统全栈开发"
+        },
+        {
+            "company_name": "法本信息技术股份有限公司",
+            "department_name": "金融科技部",
+            "work_time":
+            [
+                "2024.12",
+                null
+            ],
+            "work_desc": "易方达基金公司驻场高级python开发，主要负责算法交易系统、EFundGPT项目开发"
         }
     ],
     "skillList":
