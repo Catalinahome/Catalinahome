@@ -21,7 +21,7 @@
         "mobile": "13337831404",
         "github": "",
         "zhihu": "",
-        "workExpYear": "6年",
+        "workExpYear": "7年",
         "positionTitle": "软件开发工程师"
     },
     "educationList":
@@ -141,6 +141,12 @@
             "skill_desc": "熟悉前端开发技术,如Html, CSS, JS,React,Vue以及UI框架AntD,ElementUI,Echarts,并都有过项目实战经验",
             "skill_level": 90,
             "dataIndex": 5
+        },
+        {
+            "skill_name": "AWS 云服务",
+            "skill_desc": "熟悉 AWS 云平台服务，包括 EC2、S3、RDS、Lambda、CloudWatch 等核心组件的使用和部署",
+            "skill_level": 90,
+            "dataIndex": 6
         }
     ],
     "projectList":
