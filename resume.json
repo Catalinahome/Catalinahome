@@ -44,6 +44,10 @@
             "award_time": "2022.08"
         },
         {
+            "award_info": "腾讯云从业者认证证书",
+            "award_time": "2025.12"
+        },
+        {
             "award_info": "TDSQL运维证书（MYSQL版）",
             "award_time": "2022.08"
         },
@@ -121,7 +125,7 @@
         {
             "skill_name": "JAVA WEB",
             "skill_desc": "熟练掌握Spring、SpringBoot、MyBatis、MyBatis-Plus等主流开发框架设计原理，阅读过部分核心代码。",
-            "skill_level": 90,
+            "skill_level": 85,
             "dataIndex": 2
         },
         {
@@ -139,14 +143,20 @@
         {
             "skill_name": "前端",
             "skill_desc": "熟悉前端开发技术,如Html, CSS, JS,React,Vue以及UI框架AntD,ElementUI,Echarts,并都有过项目实战经验",
-            "skill_level": 90,
+            "skill_level": 85,
             "dataIndex": 5
         },
         {
             "skill_name": "AWS 云服务",
             "skill_desc": "熟悉 AWS 云平台服务，包括 EC2、S3、RDS、Lambda、CloudWatch 等核心组件的使用和部署",
-            "skill_level": 90,
+            "skill_level": 85,
             "dataIndex": 6
+        },
+        {
+            "skill_name": "AI大模型应用开发",
+            "skill_desc": "熟练掌握AI大模型应用开发技术，包括 RAG(检索增强生成)、Agent(智能体) 架构设计、知识库构建与管理。熟悉 LangChain、LangGraph 等框架，有向量数据库 (Milvus) 实战经验，掌握语义检索、reranker 优化、对话记忆管理等核心技术",
+            "skill_level": 85,
+            "dataIndex": 7
         }
     ],
     "projectList":
